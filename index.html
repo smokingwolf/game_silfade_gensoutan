@@ -1,0 +1,1229 @@
+<!DOCTYPE html>
+<html lang="ja">
+<HEAD>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=700">
+<script src="smoothscroll.js" type="text/javascript"></script> 
+
+<META http-equiv="Content-Style-Type" content="text/css">
+<LINK rel="stylesheet" href="sil_game1.css">
+
+<TITLE>シルフェイド幻想譚 アーカイブページ</TITLE>
+
+  <style>
+    /* ボディ、フォント指定 */
+    body {
+      /*padding-top: 60px; /* メニューの高さ分スペース確保 */
+      margin: 0;
+      -webkit-font-smoothing: optimizeSpeed;
+      font-smooth: never;
+    }
+    
+    /* 上部固定ナビゲーション */
+    .fixed-menu {
+      background: rgba(70, 70, 120, 0.9); /* ★作品別に調整！ */
+      top: 0;
+      left: 120;  /* ★＠＠＠＠ 左のフローメニューの分 アーカイブ時は0に */
+      width:calc(100% - 120px); /* ★＠＠＠＠ 左のフローメニューの分 アーカイブ時は100％に */
+      box-sizing: border-box;
+      position: fixed;
+      padding: 6px 14px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      border-radius: 0 0 20px 20px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+	  display: inline-block;
+	  line-height: 1.7;
+	  flex-wrap: wrap; 
+	  min-width:680px;
+    }
+
+    .fixed-menu a {
+      display: inline-block; /* ブロック化して折り返せるようにする */
+      white-space: nowrap;   /* 1項目内の改行は防ぐ */
+      text-decoration: none;
+      font-weight: bold;
+      color: #004466;
+      font-size: 14px;
+      padding: 2px 8px;
+      transition: all 0.2s;
+      border-radius: 6px;
+    }
+
+    .fixed-menu a:hover {
+      background-color: #a5e5c6;
+      color: #002233;
+    }
+    
+.fixed-menu A.g:LINK,.fixed-menu A.g:VISITED{color:#68f6ac;text-decoration: none;}
+.fixed-menu A.g:HOVER,.fixed-menu A.g:ACTIVE{color: #002233;text-decoration: none;}
+
+.fixed-menu A.blue:LINK,.fixed-menu A.blue:VISITED{color:#789cff;text-decoration: none;}
+.fixed-menu A.blue:HOVER,.fixed-menu A.blue:ACTIVE{
+      background-color: #aacfff;color : #444477;text-decoration: none;}
+
+A.blue{
+  text-shadow:0 0 10px #37f;
+}
+A{
+  text-decoration: underline;
+}
+  </style>
+  
+<!--フローメニュー内にHEAD・BODYが書いてあるので以下は本当はいらないがアーカイブ時用-->
+</HEAD>
+<BODY>
+  
+    <!-- 上部固定メニュー -->
+  <nav class="fixed-menu"><CENTER>
+    <a href="../" class="blue">←ホームへ</a>
+  <SMALL>シルフェイド幻想譚</SMALL>
+    <a href="#top" class="g">タイトル/DL</a>
+    <a href="#story" class="g">ストーリー</a>
+    <a href="#totem" class="g">トーテム</a>
+    <a href="#character" class="g">登場人物</a>
+    <a href="#system" class="g">システム</a>
+    <a href="#data" class="g">データ集</a>
+    <a href="#screenshot" class="g">画面写真</a>
+    
+   　
+    </CENTER>
+  </nav>
+  <!-- 上部固定メニューここまで -->
+  
+<a id="top"></a>
+<BR><BR><BR>
+<CENTER>
+
+
+<TABLE class="koi_back">
+  <TBODY>
+    <TR>
+      <TD align="center" nowrap width="650"><BR><BR><BR>↑のメニューから見たい項目を選んでください。<BR><BR>
+      
+
+
+      <IMG src="silrpg_top2.jpg" border="0" style="max-width:440px;border:1px solid #559;">
+      <BR>
+<HR width="80%" size="1" color=#8888aa>
+
+      <BR>
+      <FONT size="+1"><A href="https://github.com/smokingwolf/game_silfade_gensoutan/releases/download/v1.34/SilfadeGensoutan1.34.zip" class="blue" target="_blank"><U><B>【シルフェイド幻想譚】のダウンロード</B><BR>（<B>Zip 3.5MB</B> / GitHubより直接DL) </FONT><BR>
+      </U></A>
+      <B><font class="fw">【2021/5/12更新!】</font>　顔グラフィックをリファインしました！</B><BR>
+      <br>
+     
+      
+      <BR>
+　　<b><span style="font-size : 150%;"><a href="playgame/player-js/" target="_parent" class="blue"><U>【パソコンでもスマートフォンでもプレイできる<BR>『ブラウザ版』はこちらから！】</U></a></span></b><BR>
+　　　→　ブラウザ版のセーブデータはブラウザの「キャッシュ」内に保存されるので、<BR>
+　　　　時間経過やキャッシュ削除で消える場合があります。<BR>
+【2025/4/17更新】画面の最大化時に十字キーやボタンが消えないように修正しました。<BR>
+　      <BR>
+<HR width="80%" size="1" color=#8888aa><BR>
+      [RPGツクール2000作品]　フリーソフト<BR>
+      <BR>
+      【ジャンル】　ロールプレイングゲーム<BR>
+      【対応OS】　Windows系98/98SE/ME/2000/XP/7/10～<BR>
+      <BR>
+      【製作期間】 2003年9月～2005年1月<BR>
+      <BR>
+<HR width="80%" size="1" color=#8888aa>
+<BR>
+<font size="+2" class="fw">【受賞歴】</font>
+      <BR><BR>
+      <B><A href="https://web.archive.org/web/20060208043401/http://www.enterbrain.co.jp/techwin/data/contents/cpd/silfeid.html" target="_blank" class="red"><big>【金賞受賞ページ（2006-02-08時点のアーカイブ）】</big></A></B><BR>
+      <BR>
+      『テックウィンDVD　2005年4月号』コンテストパークにて「金賞」受賞<BR>
+      「ストレスフリー＆シナリオ構成が逸品」との評価を頂きました。<BR>
+      <BR>
+
+      <BR>
+      <BR>
+      <BR>
+<font size="+2" class="fw">【レビュー】</font><BR><BR>
+<A href="https://web.archive.org/web/20160916110112/https://freegame-mugen.jp/rank/game/silfade_genso.html" target="_blank" class="red"><U><B>【夢現さま(インターネットアーカイブ)】</B></U></A><BR>「天空に浮かぶ大陸を舞台とした、フリーシナリオファンタジーRPG」<BR><BR>
+<A href="https://web.archive.org/web/20250523212530/https://www.vector.co.jp/magazine/softnews/050514/n0505145.html" target="_blank" class="red"><U><B>【Vectorさま(インターネットアーカイブ)】</B></U></A><BR>「時間の概念と主人公の行動により、ストーリーがさまざまに展開してゆくファンタジーRPG」<BR><BR>
+<A href="https://web.archive.org/web/20160718032512/https://forest.watch.impress.co.jp/docs/serial/shumatsu/453609.html" target="_blank" class="red"><U><B>【窓の杜 さま(インターネットアーカイブ)】</B></U></A><BR>「時間制限のあるなかで、世界を襲う災いを見つけていくフリーシナリオRPG」　<BR>
+      <BR>
+      
+      
+      
+      
+<HR width="80%" size="1" color=#8888aa>
+      <BR>
+      【協力】<BR>
+      <BR>
+      [マップチップ素材]<BR>
+      LooseLeaf (MACK 様) <BR>
+      <BR>
+      [音楽素材]<BR>
+      Minstrel's treasure（めあらす 様）<BR>
+      TAM Music Factory（多夢 様）<BR>
+      Sleeping Dragon and sound creation（ねむりゅう様）<BR>
+      デジファミ音楽堂<BR>
+      <BR>
+      [テストプレイ]<BR>
+      タクミドットネット（タクミ様）
+
+      <BR>
+      
+      
+<a id="story"></a><BR><BR>
+<HR width="100%" size="1" color="#8888aa">
+      <BR>
+      
+      
+      
+      － <B class="fmw"><font size="+2">ストーリー</font></a></B> －<BR>
+      <BR>
+      <TABLE>
+        <TBODY>
+          <TR>
+            <TD width="449" height="196" valign="top" align="left" nowrap><IMG src="graphic/storyword_01.gif" border="0" width="300" height="26"><BR>
+            <BR>
+            　　それはシルフェイドと呼ばれる世界の、遠い遠い昔のお話。<BR>
+            　人々は空に浮かぶ島で、『理力』と呼ばれる力と共に、<BR>
+            　森に住む魔物を恐れつつも、なかば平和な日々を送っておりました。<BR>
+            <BR>
+            <BR>
+            <BR>
+            　　そんな中、この天空島を見守っていた一人の人間――リクレールはある時、<BR>
+            　15日後のこの島に大きな『災い』が起こるということを予知しました。<BR>
+            　それは島の多くの生命を巻き込む、とても大きな『災い』のようでした。<BR>
+            <BR>
+            　 「このまま私が何も干渉しなければ、きっと『災い』が島を襲ってしまう……」<BR>
+            　そう思ったリクレールは、この天空島を守るために<BR>
+            　その不思議な力で、ある一つの生命を生み出しました。<BR>
+            <BR>
+            　　……そう、『あなた』のことです。<BR>
+            <BR>
+            <BR>
+            　　リクレールは、我々の住む場所とは別の次元にある『意識の海』から<BR>
+            　『あなた』を引き上げて『身体』を与え、そして『あなた』にお願いをします。<BR>
+            <BR>
+            　<BR>
+            　　「15日後に起こるであろう『災い』の正体を確かめ、<BR>
+            　　　そしてそれを阻止して欲しいのです――」<BR>
+            <BR>
+            <BR>
+            　　――たった15日間の『あなた』の冒険は、ここから始まります。<BR>
+            <BR>
+            　</TD>
+            <TD valign="top" align="left" nowrap width="148"><BR><BR>
+            <BR>
+            <IMG src="graphic/story_01.jpg" border="0" width="140" height="75"><BR><BR>
+            <BR><BR>
+            <BR>
+            <BR>
+            <IMG src="graphic/story_02.gif" border="0" width="140" height="156">
+            </TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      
+<a id="totem"></a><BR><BR>
+<HR width="100%" size="1" color="#8888aa">
+      <BR>
+      
+            － <B class=fmw><font size="+2">トーテム</font></B> －<BR><BR>
+      「トーテム」とは、シルフェイドの世界で精霊や守り神のような存在です。<BR>
+      それを宿すことで、普通の人間とは比べ物にならない<BR>
+      大きな力を得ることができます。<BR>
+      <BR>
+      ゲーム開始時にあなたが一つ選択できるトーテムは、以下の三種類です。<BR>
+      宿したトーテムによって、上がりやすい能力などが変わってきます。<BR>
+      <BR>
+      <TABLE class="mgray" cellpadding="1" cellspacing="1">
+        <TBODY>
+          <TR class="koi_back">
+            <TD><font class=fmg><B>戦闘</B>＝戦闘での単純な強さ</font></TD>
+            <TD><font class=fmg><B>理力</B>＝フォースの得意さ</font></TD>
+          </TR>
+          <TR class="koi_back">
+            <TD nowrap><font class=fmg><B>荷物</B>＝持てる重量の大きさ</font></TD>
+            <TD><font class=fmg><B>移動</B>＝移動の速さ</font></TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      <font class=fmg>A：優秀　B：普通　C：劣る</font><BR>
+      <BR>
+      <TABLE>
+        <TBODY>
+          <TR>
+            <TD nowrap align="right" class="back"><IMG src="graphic/ch_totem1.jpg" border="0" width="66" height="88"></TD>
+            <TD nowrap class="back" align="left"><B>[クロウ]</B>　　（戦闘<B class=fmw>A</B>　理力<B>C</B>　荷物<B class=fmw>A</B>　移動<B>C</B>）<BR>
+            　とても真面目なトーテムです。<BR>
+            　このトーテムを宿すと筋力Lvや生命Lvの上昇率が高くなり、<BR>
+            　肉弾戦では敵なしの強さを誇ります。逆に知力や意志は低く、<BR>
+            　フォースはあまり使えません……が、逆に言えば戦闘での<BR>
+            　戦術をあまり要求されないので、レベルを上げ装備を揃えれば<BR>
+            　少々戦い方がヘタでも必ず敵に勝てます。<B>初心者向け</B>。<BR>
+            <BR>
+            [特殊スキル]　<BR>
+            　防御 … 発動すると、受ける物理ダメージが半分以下になります。<BR>
+            　</TD>
+          </TR>
+          <TR>
+            <TD align="right" nowrap class="back"><IMG src="graphic/ch_totem2.jpg" border="0" width="66" height="88"></TD>
+            <TD nowrap class="back" valign="middle" align="left"><B>[フェザー]</B>　　（戦闘<B>B</B>　理力<B>B</B>　荷物<B>C</B>　移動<B class=fmw>A</B>）<BR>
+            　ちょっと軽い性格のトーテムです。<BR>
+            　宿すと敏捷Lvが極端に高くなり、他のステータスがバランス良く<BR>
+            　成長します。このトーテムを宿した時だけ、「<B>高速移動</B>」によって<BR>
+            　フィールドでの経過時間が2/3（※移動速度1.5倍）になります。<BR>
+            　宿すのなら女性主人公の方が面白いかもしれません。<BR>
+            <BR>
+            [特殊スキル]<BR>
+            　高速移動 … フィールド上の経過時間が自動的に2/3になります。<BR>
+            　回避 … 発動すると、物理攻撃を回避しやすくなります。<BR>
+            　</TD>
+          </TR>
+          <TR>
+            <TD align="right" nowrap class="back"><IMG src="graphic/ch_totem3.jpg" border="0" width="66" height="88"></TD>
+            <TD nowrap class="back" align="left"><B>[スケイル]</B>　　（戦闘<B>C</B>　理力<B class=fmw>A</B>　荷物<B>B</B>　移動<B>B</B>）<BR>
+            　探求心に溢れ、やや女性的な面を持つトーテムです。<BR>
+            　このトーテムを宿すと、知力Lvと意志Lvが極端に上がりやすくなり、<BR>
+            　フォースに関しては右に出る者はいなくなるでしょう。<BR>
+            　また<B>水中移動</B>のスキルを持ち、川や湖を移動することも可能です。<BR>
+            　しかし肉弾戦が極端に苦手なため戦闘には戦術が要求され、<BR>
+            　多少<B>上級者向け</B>のトーテムと言えます。<BR>
+            　宿すのなら男性主人公の方が色々と面白いかもしれません。<BR>
+            <BR>
+            [特殊スキル]<BR>
+            　水中移動 … 水の中でもスイスイ移動することができます。<BR>
+            　</TD>
+          </TR>
+
+        </TBODY>
+      </TABLE>
+      
+      
+      
+      
+      <BR><BR>
+
+      <BR><BR>
+<a id="character"></a><BR><BR>
+<HR width="100%" size="1" color="#8888aa">
+      <BR>
+      
+      － <B class=fmw><font size="+2">登場人物の紹介</font></B> －<BR><BR>
+物語を彩る登場人物の一部です。旅の仕方によっては、<BR>
+最後まで出会わない人物もいることでしょう。<BR>
+<BR>
+<TABLE>
+<TBODY>
+<TR>
+<TD nowrap align="center" class="back"><IMG src="graphic/ch_hero.gif" border="0" width="62" height="48"></TD>
+<TD nowrap class="back" align="left"><B>[主人公　男/女]</B><BR>
+　天空の島を救うためにリクレールに作られた存在で、<BR>
+　あなたが操作できるキャラクターの事です。<BR>
+　トーテムによって肉弾戦が得意かフォースが得意かが<BR>
+　変わってきます。性別による能力差はありません。</TD>
+</TR>
+</TBODY>
+</TABLE>
+<BR>
+<BR>
+－トーテムの力を持った人々－<BR>
+<TABLE>
+<TBODY>
+<TR>
+<TD align="right"><IMG src="graphic/ch_reclear.jpg" border="0" width="66" height="88"></TD>
+<TD nowrap class="back" align="left"><B>[リクレール]</B>　女<BR>
+　神のような存在で、あなたを生み出した張本人です。<BR>
+　この世界で一番最初に「トーテム」の力を<BR>
+　持っていた存在でもあります。</TD>
+</TR>
+<TR>
+<TD align="right"><IMG src="graphic/ch_aegis.jpg" border="0" width="66" height="88"></TD>
+<TD nowrap class="back" align="left"><B>[エージス]</B>　男<BR>
+　サーショの街にある兵士詰め所の隊長です。<BR>
+　もう年で引退寸前の身ですが、バーン王に命じられて<BR>
+　魔王の復活を阻止すべく旅に出ます。<BR>
+　剣の道を究めていますが、理力もそこそこ使えます。</TD>
+</TR>
+<TR>
+<TD align="right">
+<IMG src="graphic/ch_ish.jpg" border="0" width="66" height="88"></TD>
+<TD nowrap class="back" align="left"><B>[イシュテナ]</B>　女<BR>
+　50年前の魔王を倒した大賢者サリムの孫。<BR>
+　トーテムを宿しており、現在、失踪した<BR>
+　大賢者サリムを探して旅をしています。<BR>
+　理力の街リーリルの出身で、フォースが得意です。</TD>
+</TR>
+<TR>
+<TD align="right"><IMG src="graphic/ch_albert.jpg" border="0" width="66" height="88"></TD>
+<TD nowrap class="back" valign="middle" align="left"><B>[アルバート]</B>　男<BR>
+　ムーの村の「時の扉」からこの世界に迷い込んだ旅人。<BR>
+　主人公と同じくトーテムを宿しています。<BR>
+　フォースの力はないものの、戦いに関しては超一流です。<BR>
+　しかし、この世界の人達とはまったく言葉が通じません。</TD>
+</TR>
+</TBODY>
+</TABLE>
+<BR>
+<BR>
+－街や村の住人達－<BR>
+<TABLE>
+<TBODY>
+<TR>
+<TD align="right"><IMG src="graphic/ch_sizuna.jpg" border="0" width="66" height="88"></TD>
+<TD nowrap class="back" align="left"><B>[シズナ]</B>　女<BR>
+　サーショの街で弟のシンと共に暮らしています。<BR>
+　この姉弟はある困った問題を抱えているようです。</TD>
+</TR>
+<TR>
+<TD align="right"><IMG src="graphic/ch_sin.jpg" border="0" width="66" height="88"></TD>
+<TD nowrap class="back" align="left"><B>[シン]</B>　男<BR>
+　サーショの街で姉のシズナと共に暮らしています。</TD>
+</TR>
+<TR>
+<TD align="right"><IMG src="graphic/ch_orva.jpg" border="0" width="66" height="88"></TD>
+<TD nowrap class="back" align="left"><B>[謎の占い師]</B>　女<BR>
+　サーショの街にいる、何やらただならぬ雰囲気を<BR>
+　持った占い師です。あなたへの助言と、そして　<BR>
+　手助けをしてくれるでしょう。</TD>
+</TR>
+
+<TR>
+<TD align="right">
+<IMG src="graphic/ch_clert.jpg" border="0" width="66" height="88"></TD>
+<TD nowrap class="back" align="left"><B>[クラート]</B>　男<BR>
+　イシュテナの夫。リーリルの街で医院を営んでいます。<BR>
+　セシルという息子がいます。</TD>
+</TR>
+
+
+<TR>
+<TD align="right"><IMG src="graphic/ch_uliyu.jpg" border="0" width="66" height="88"></TD>
+<TD nowrap class="back" align="left"><B>[ウリユ]</B>　女<BR>
+　封印の街シイルに住む、目の見えない少女。<BR>
+　不思議な力で未来を予知することができるそうです。<BR>
+　母親と二人で暮らしています。</TD>
+</TR>
+
+<TR>
+<TD align="right"><IMG src="graphic/ch_king.jpg" border="0" width="66" height="88"></TD>
+<TD nowrap class="back" align="left"><B>[バーン王]</B>　男<BR>
+　現在のバーン城の城主です。人々の平和を<BR>
+　守るための様々な活動を行っています。</TD>
+</TR>
+<TR>
+<TD align="right"><IMG src="graphic/ch_mary.jpg" border="0" width="66" height="88"></TD>
+<TD nowrap class="back" align="left"><B>[メアリー]</B>　女<BR>
+　エージスの娘です。<BR>
+　バーン城で召使いの仕事をしています。</TD>
+</TR>
+</TBODY>
+</TABLE>
+<BR>
+<BR>
+      
+      
+      
+      <BR><BR>
+<a id="system"></a><BR><BR>
+<HR width="100%" size="1" color="#8888aa">
+      <BR>
+      
+            － <B class=fmw><font size="+2">システムの紹介</font></B> －<BR><BR>
+      シルフェイド幻想譚はどんなゲームなのか、<BR>
+      それを紹介していきます。<BR>
+      <BR>
+      <TABLE cellpadding="4">
+        <TBODY>
+          <TR>
+            <TD nowrap align="center" class="gray" colspan="2"><B>刻々と進む『時間』</B></TD>
+          </TR>
+          <TR>
+            <TD align="center" colspan="2" class="back">このゲームの目的は、ゲーム開始時から15日後に<BR>
+            起こるであろう『<B>災い</B>』の正体を突き止め、<BR>
+            そして『災い』が起きる前にそれを阻止することです。<BR>
+            <BR>
+            このゲームでは、プレイヤーキャラクターが<BR>
+            フィールドを一歩進むたびにゲーム内時間が1分進み、<BR>
+            またダンジョンを探索していても時間が流れ続けます。<BR>
+            時間が進めば、人々の暮らしや物語の状況も変わっていきます。<BR>
+            <B>たとえあなたが何もしなくても、時間が進み、日付が変われば、<BR>
+            周りの状況は刻一刻と変化していくのです。</B><BR>
+            <BR>
+            <IMG src="graphic/system_01.jpg" border="0"><BR>
+            昼　　←　　→　　夜</TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      <BR>
+      <BR>
+      <TABLE cellpadding="4">
+        <TBODY>
+          <TR>
+            <TD nowrap align="center" class="gray" colspan="2"><B>自由な冒険</B></TD>
+          </TR>
+          <TR>
+            <TD align="center" colspan="2" class="back">このゲームでは、あなたを縛る者は何者もいません。<BR>
+            普通に少しずつ探索を進めていくことも、<BR>
+            ゲームが始まった直後にはるか遠い街へ向かうことも、<BR>
+            ゲーム初期に自分よりとても強い敵と戦って早く成長することも、<BR>
+            すべては自由です。<BR>
+            <BR>
+            <IMG src="graphic/system_02.jpg" border="0" width="240" height="180"><BR>
+            トーテムが<B>スケイル</B>なら、川や湖を移動することもできます。</TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      <BR>
+      <BR>
+      <TABLE cellpadding="4">
+        <TBODY>
+          <TR>
+            <TD nowrap align="center" class="gray" colspan="2"><B>自由な成長・カスタマイズ</B></TD>
+          </TR>
+          <TR>
+            <TD align="center" colspan="2" class="back">主人公を襲う敵を撃退することで、あなたのキャラクターは<BR>
+            どんどん強くなっていきます。<BR>
+            <BR>
+            戦いを重ねることでキャラクターは自然に強くなっていきますが、<BR>
+            それとは別に、戦いでは<B>S.EXP(特殊経験値)</B>というものを得ることができ、<BR>
+            それを使うことでキャラクターをあなたの思いのままに<BR>
+            成長させることができます。<BR>
+            <BR>
+            たとえば、LIFE（生命力）だけ極端に高いキャラクターや、<BR>
+            攻撃力だけスゴいキャラクターなどを作ることも簡単ですし、<BR>
+            筋力や生命などのパラメータの方でなく、戦闘での「行動回数」を増やしたり<BR>
+            特殊なスキルを覚えたりすることも一つの選択となります。<BR>
+            <BR>
+            <IMG src="graphic/system_03.jpg" border="0" width="400" height="150"><BR>
+            S.EXP(特殊経験値)を使うことで自分で好きなように<BR>
+            ステータスを上げたり、「能力習得」したりすることができます。</TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      <BR>
+      <BR>
+      <BR>
+      
+      
+      
+            － <B class=fmw><font size="+2">基礎知識</font></B>－ <BR>
+      <B class=fmw><BR>
+      </B><BR>
+      <B class=fmw>1.移動中のコマンドについて</B><BR>
+      まず、移動中にキャンセルキーを押す事で出てくる<BR>
+      コマンドについて説明します。<BR>
+      <BR>
+      <TABLE cellpadding="4">
+        <TBODY>
+          <TR>
+            <TD nowrap align="center" class="gray"><B>コマンドの説明</B></TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back">
+            <TABLE cellpadding="4">
+              <TBODY>
+                <TR>
+                  <TD><IMG src="graphic/kiso_command1.jpg" border="0" width="194" height="240"></TD>
+                  <TD>移動中にキャンセルキーを押すことで、<BR>
+            ←のようなコマンドを出すことができます。<BR>
+            ここではそれぞれのコマンドについて説明します。</TD>
+                </TR>
+                <TR>
+                  <TD align="right"><IMG src="graphic/kiso_command2.jpg" border="0"></TD>
+                  <TD><BR>
+            ・<B class=fmw>相談</B><BR>
+                  　トーテムと相談します。<BR>
+                  　場所が変わるごとに、またフィールドでは<BR>
+                  　日付や時間が変わるごとに<BR>
+                  　相談の内容が変化していきます。<BR>
+            </TD>
+                </TR>
+                <TR>
+                  <TD align="right"><IMG src="graphic/kiso_command3.jpg" border="0"></TD>
+                  <TD><BR>
+            ・<B class=fmw>アイテム</B><BR>
+                  　アイテムを使ったり、武器や防具を<BR>
+                  　装備したりできます。アイテムには『<B class=fmw>重さ</B>』が<BR>
+                  　あり、自分の持てる以上の荷物を<BR>
+                  　持つことはできません。</TD>
+                </TR>
+                <TR>
+                  <TD align="right"><IMG src="graphic/kiso_command4.jpg" border="0"></TD>
+                  <TD><BR>
+            ・<B class=fmw>フォース</B><BR>
+                  　自分の覚えたフォースを使うことができます。<BR>
+                  　フォースは最大4種（トーテムがスケイルなら5種）<BR>
+                  　までしか覚えることはできません。<BR>
+                  　ここでは覚えたスキルも一緒に表示されます。</TD>
+                </TR>
+
+                <TR>
+                  <TD align="right"><IMG src="graphic/kiso_command5.jpg" border="0"></TD>
+                  <TD><BR>
+            ・<B class=fmw>ステータス</B><BR>
+                  　自分のステータスを確認することができます。<BR>
+                  　詳しいことは次で説明しています。</TD>
+                </TR>
+
+                <TR>
+                  <TD align="right"><IMG src="graphic/kiso_command6.jpg" border="0"></TD>
+                  <TD><BR>
+            ・<B class=fmw>その他</B><BR>
+                  　今までの冒険の記録を見たり、オプションで<BR>
+                  　ダッシュ方式と時計表示の設定をしたり、<BR>
+                  　ゲーム終了を行ったりすることができます。</TD>
+                </TR>
+              </TBODY>
+            </TABLE>
+            </TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      <BR>
+      <BR>
+      <BR>
+      <B class=fmw>2.ステータスについて</B><BR>
+      あなたのキャラクターの能力の見方を説明します。<BR>
+      <BR>
+      <TABLE cellpadding="4">
+        <TBODY>
+          <TR>
+            <TD nowrap align="center" class="gray" colspan="2"><B>ステータスの説明</B></TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back"><IMG src="graphic/kiso_status.jpg" border="0" width="320" height="240"><BR>
+            <BR>
+            ・<B class=fmw>LIFE（ライフ）</B><BR>
+            生命力、どれだけ敵の攻撃に耐えられるかを<BR>
+            表すステータスです。<BR>
+            敵の攻撃を受けるたびに減っていきます。<BR>
+            宿屋で寝たりアイテムを使うことで回復できます。<BR>
+            <BR>・<B class=fmw>FORCE（フォース）</B><BR>
+            フォースの力、あとどれだけフォースを<BR>
+            使えるかというのを表すステータスです。<BR>
+            フォースを使うたびに減っていきます。<BR>
+            宿屋で寝たりアイテムを使うことで回復できます。<BR>
+            <BR>・<B class=fmw>WILL（ウィル）</B><BR>
+            意志の力、戦闘中にWILLを使うことで、<BR>
+            一時的に大きな力を得ることができます。<BR>
+            夜の24:00になれば、自動的に全回復します。<BR>
+            </TD>
+            <TD align="center" class="back">・<B class=fmw>筋力</B><BR>
+            筋肉の強さです、これが高いと攻撃力が増加します。<BR>
+            また、持てる荷物の重さも増えるので、<BR>
+            重い装備を多く持つこともできるようになります。<BR>
+            <BR>
+            ・<B class=fmw>敏捷</B><BR>
+            いわゆる素早さです。このLvが高いと、<BR>
+            戦闘で先制攻撃をしやすくなります。<BR>
+            <BR>
+            ・<B class=fmw>生命</B><BR>
+            生命力です。このLvが高くなれば、<BR>
+            最大LIFEが増え、敵の物理攻撃のダメージを<BR>
+            少し減らすことができます。<BR>
+            <BR>
+            ・<B class=fmw>知力</B><BR>
+            記憶力です。このLvが高ければ一度に<BR>
+            覚えられるフォースをより多く、<BR>
+            より高度にすることができ、<BR>
+            また最大FORCEも上昇します。<BR>
+            フォースの威力とは関係ありません。<BR>
+            <BR>
+            ・<B class=fmw>意志</B><BR>
+            心の強さです。このLvが高くなれば、<BR>
+            攻撃系・回復系のフォースの威力・効果が増加し、<BR>
+            また最大FORCEも上昇します。<BR>
+            <BR>
+            <HR width="100%" size="1" color=#8888aa>
+            ・<B class=fmw>EXP</B><BR>
+            「EXP 6/7」などと書かれているのは、<BR>
+            そのステータスの現在の経験値です。<BR>
+            これが7/7になればLvが1上がることになります。<BR>
+            また、<B>S.EXP</B>をこのEXPに振り分けて、自ら<BR>
+            レベルアップさせることもできます（右下「<B>Lvの上昇</B>」）</TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      <BR>
+      <BR>
+      <BR>
+      <B class=fmw>3.戦闘について</B><BR>
+      あなたが<B>森</B>や<B>洞窟</B>（ダンジョン）を歩いていると、<BR>
+      敵が襲ってくることがあります（俗に言うランダムエンカウント）。<BR>
+      逆に、<B>平原を歩いている限りは決して敵と遭遇しません</B>。<BR>
+      ここでは、戦いについて説明していきます。<BR>
+      <BR>
+      <TABLE cellpadding="4">
+        <TBODY>
+          <TR>
+            <TD nowrap align="center" class="gray" colspan="2"><B>戦闘時のコマンドの説明</B></TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back"><IMG src="graphic/kiso_battle1.jpg" border="0" width="280" height="210"><BR>
+            ↓コマンド選択中</TD>
+            <TD align="center" class="back" valign="middle">戦闘が始まった直後は、次の4つのコマンドから<BR>
+            一つを選択します。<BR>
+            <BR>
+            ・<B class=fmw>戦闘</B><BR>
+            普通にコマンドを選んで戦います。<BR>
+            <BR>
+            ・<B class=fmw>総攻撃</B><BR>
+            すべての行動に「攻撃」を入力して戦闘開始します。<BR>
+            <BR>
+            ・<B class=fmw>逃走</B><BR>
+            敵から逃げます。逃げられるかどうかは<BR>
+            「相談」で確認可能です。<BR>
+            <BR>
+            ・<B class=fmw>相談</B><BR>
+            「敵と自分の強さの差」や「逃げられる確率」などを<BR>
+            トーテムに教えてもらえます。</TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back" rowspan="2" valign="top"><IMG src="graphic/kiso_battle2.jpg" border="0" width="280" height="210"><BR>
+            ↓戦闘中<BR>
+            <IMG src="graphic/kiso_battle3.jpg" border="0" width="280" height="210"></TD>
+            <TD align="center" class="back" valign="top">
+            <HR width="100%" size="1" color=#8888aa>
+            「<B class=fmw>戦闘</B>」を選ぶと、←のようにコマンドを<BR>
+            選択する状態に移ります。<BR>
+            <BR>
+            複数回行動できる場合は、複数コマンドを入力します。<BR>
+            （ここでは、防御→攻撃→…と入力しています）<BR>
+            <BR>
+            すべてのコマンドを入力し終わったら、<BR>
+            戦闘に入ります。敵と味方の中で<BR>
+            「敏捷」が高い順番から行動していきます。<BR>
+            <HR width="100%" size="1" color=#8888aa>
+            <BR>
+            <BR>
+            <BR>
+            　　</TD>
+          </TR>
+          <TR>
+            <TD align="center" class="gray" valign="top">ちなみに、コマンド選択中に<B>Shift</B>を押すと、<BR>
+            「<B class=fmw>WILL</B>」を使用することができます。<BR>
+            ↓<BR>
+            <IMG src="graphic/kiso_battle4.jpg" border="0" width="280" height="210"></TD>
+          </TR>
+          <TR>
+            <TD colspan="2" align="center" height="4"></TD>
+          </TR>
+          <TR>
+            <TD class="back" align="center"><IMG src="graphic/kiso_battle5.jpg" border="0" width="280" height="210"></TD>
+            <TD class="back" align="center">- <B class=fmw>戦闘に勝利したら</B> -<BR>
+            <BR>
+            戦闘に勝利すると、筋力、敏捷、生命、知力、意志の<BR>
+            それぞれのステータスに経験値が入り、<BR>
+            一定値以上溜まるとそのステータスがレベルアップします。<BR>
+            <font class=fmg>（ここではEXP7/8だった知力が+1されて<BR>
+            8/8ポイントとなり、レベルアップしています）</font><BR>
+            <BR>
+            また、この時S.EXPにもポイントが入っています。<BR>
+            S.EXPについては<B>↓</B>にて。</TD>
+          </TR>
+          <TR>
+            <TD class="back" align="center"><IMG src="graphic/kiso_battle6.jpg" border="0" width="280" height="210"></TD>
+            <TD class="back" align="center">- <B class=fmw>S.EXPの使い方</B> -<BR>
+            <BR>
+            S.EXPとは特殊経験値のことです。<BR>
+            このポイントを使う事で、自分の好きなように<BR>
+            各種ステータスを上げたり、<BR>
+            特殊なスキルやフォースを覚えることができるのです。<BR>
+            <font class=fmg>（ただし、ある程度ステータスを上げないと<BR>
+            これらのスキルを覚えることはできません）</font><BR>
+            </TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      <BR>
+      <BR>
+      <BR>
+      <B class=fmw>4.○○するにはどうすればいいのか？</B><BR>
+      RPGをやったことのない人もやったことがある人も、<BR>
+      これを知っておくとゲームで得するという情報を紹介しておきしょう。<BR>
+      <BR>
+      <TABLE cellpadding="4">
+        <TBODY>
+          <TR>
+            <TD nowrap align="center" class="gray" colspan="2"><B>回復するにはどうすればいいの？</B></TD>
+          </TR>
+          <TR>
+            <TD align="center" colspan="2" class="back">回復するためには、次の3つの方法があります。<BR>
+            <BR>
+            ・<B class=fmw>宿屋に泊まる</B><BR>
+            宿屋でお金を払って部屋を借りると、ベッドで休む事ができます。<BR>
+            ベッドに入ると<B>10分ずつ</B>寝ることができ、寝ている間は<BR>
+            LIFEやFORCEが徐々に回復していきます。<BR>
+            もしLIFEとFORCEが満タンになったら、<BR>
+            ちゃんとあなたのトーテムが起こしてくれますので<BR>
+            寝過ごすことはありません。<BR>
+            もちろん、少しだけ回復してから起きることもできます。<BR>
+            <BR>
+            <BR>
+            ・<B class=fmw>アイテムを使う</B><BR>
+            「冒険の薬」や「癒しの水」を使ってLIFEを回復したり、<BR>
+            「理力の水」を使ってFORCEを回復することができます。<BR>
+            「冒険の薬」は移動時にしか使えませんが、<BR>
+            「～の水」という名のアイテムは、戦闘時にも使うことができます。<BR>
+            <BR>
+            <BR>
+            ・<B class=fmw>フォースを使う</B><BR>
+            「治癒」や「完治」といったフォースを使えば、<BR>
+            キャラクターのLIFEを回復することができます。<BR>
+            しかし戦闘時の場合は、フォースを発動させるために<BR>
+            「集中」する必要があるので、戦闘中のフォースによる回復は<BR>
+            タイミングがとても重要になります。<BR>
+            </TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      <BR>
+      <BR>
+      <TABLE cellpadding="4">
+        <TBODY>
+          <TR>
+            <TD nowrap align="center" class="gray" colspan="2"><B>フォースを使うためには？</B></TD>
+          </TR>
+          <TR>
+            <TD align="center" colspan="2" class="back">フォースを使うためには、まず次のことを<BR>
+            知っておかなければいけません。<BR>
+            <BR>
+            ・<B class=fmw>フォースを覚える/忘れるにはどうすれば？</B><BR>
+            フォースを売っているお店で『買う』事で、<BR>
+            フォースを『<B>覚える</B>』ことができます。逆に、<BR>
+            フォースを『<B>忘れさせてくれる</B>』人もいます。<BR>
+            <BR>
+            しかし、フォースにはそれぞれ必要知力があり、<BR>
+            覚えている全フォースの必要知力の合計が<BR>
+            今の知力Lvを越えていた場合、<BR>
+            新しいフォースを覚えることはできません。<BR>
+            <BR>
+            <font class=fmg><B>例</B>： 知力Lv<B>4</B>の人は、必要知力<B>2</B>の「火炎」と<BR>
+            必要知力<B>3</B>の「治癒」を同時に覚えることはできません<BR>
+            (2+3=<B>5</B>なので、知力Lv<B>4</B>では足りません)。<BR>
+            しかし、どちらか片方だけ覚えることは可能です。<BR>
+            知力Lvが<B>5</B>になれば、両方覚えられるでしょう。<BR>
+            </font>
+            <BR>
+            <BR>
+            ・<B class=fmw>フォースを使うためには</B><BR>
+            移動中ならば、フォースは特に何の支障もなく<BR>
+            使うことができます。<BR>
+            しかし、戦闘中にフォースを発動するためには<BR>
+            『<B>集中</B>』をしなければなりません！<BR>
+            <BR>
+            <font class=fmg><B>例</B>： あなたが二回行動できるなら、集中が<B>1</B>必要な<BR>
+            『火炎』のフォースを発動させるためには<BR>
+            <B>『集中』→『火炎』</B><BR>
+            とコマンドを選ばなければ、火炎は発動できません。<BR>
+            集中が<B>2</B>必要な『完治』のフォースを使うつもりなら、<BR>
+            最初のターン：<B>『集中』→『集中』</B><BR>
+            次のターン：<B>『完治』→……</B><BR>
+            と、2ターンかかってしまうのです。</font><BR>
+            <BR>
+            ※もし『集中』が足りないときにフォースを選択した場合は、<BR>
+            自動的に『集中』が選択されます。<BR>
+            　</TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      <BR>
+      <BR>
+      <BR>
+      <TABLE cellpadding="4">
+        <TBODY>
+          <TR>
+            <TD nowrap align="center" class="gray" colspan="2"><B>戦いで強くなるには？</B></TD>
+          </TR>
+          <TR>
+            <TD align="center" colspan="2" class="back">戦いで強くなるためには、<BR>
+            次のような方法があります。<BR>
+            <BR>
+            ・<B class=fmw>強い敵と戦って成長する</B><BR>
+            自分よりも強い敵と戦えば、<BR>
+            一気に多くの経験値を得ることができます。<BR>
+            ただし、今の実力以上の強い敵に勝つためには<BR>
+            それなりの戦術も必要になってくるでしょう。<BR>
+            <BR>
+            逆にあまりにも自分より弱い敵と戦っていると、<BR>
+            経験値は得られません（ただしS.EXPだけは<BR>
+            敵と自分の強さの<B>差</B>に関係なく同じ量をもらえます）。<BR>
+            <BR>
+            <BR>
+            ・<B class=fmw>S.EXPを使って成長する</B><BR>
+            S.EXPを使って筋力や敏捷といったステータスを<BR>
+            自分で上昇させることも、強くなるための近道です。<BR>
+            たとえ相手が自分より弱くても、<BR>
+            得られるS.EXPは変わりませんので、<BR>
+            戦いが苦手で弱い敵ばかり倒している人でも、<BR>
+            S.EXPを使って成長することができるのです。<BR>
+            <BR>
+            <BR>
+            ・<B class=fmw>WILLを使って一時的に強くなる</B><BR>
+            戦闘中に一時的に強くなりたい場合は、<BR>
+            「WILL」を使うという手があります。<BR>
+            戦闘中コマンド選択時に<B>Shift</B>を押してWILLを使えば、<BR>
+            そのターンだけ<B>敏捷が大きく上がり</B>、<BR>
+            そのターンの全行動に<B>集中+3</B>が追加されます。<BR>
+            <BR>
+            これにより、「攻撃」の威力が<B>1.3倍</B>程度になって<BR>
+            クリティカル率も最低<B>60%</B>になる上、<BR>
+            すべてのフォースが実質「集中」なしで発動できます。<BR>
+            <font class=fmg>二回行動できる人がWILLを使えば、同じターン中に<BR>
+            『火炎』→『火炎』と選択できたりするわけです。</font><BR>
+            <BR>
+            ただし、WILLは一日<B>五回</B>までしか使えませんので、<BR>
+            使い所を見極めるのが重要になります。<BR>
+            　</TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      <BR>
+      <BR>
+      <BR>
+      
+      
+      
+      <BR><BR>
+<a id="data"></a><BR><BR>
+<HR width="100%" size="1" color="#8888aa">
+      <BR>
+      
+      － <B class=fmw><font size="+2">データ集</font></B> －<BR><BR>
+      <B class=fmw><BR>
+      </B><BR>
+      <B class=fmw>1.アイテム・装備</B><BR>
+      <BR>
+      あなたの旅の役に立つアイテムの一部を紹介します。<BR>
+      <BR>
+      <BR>
+      <TABLE cellpadding="4">
+        <TBODY>
+          <TR>
+            <TD nowrap align="center" class="gray" colspan="3"><B>回復アイテム系</B></TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back"><B>冒険の薬</B></TD>
+            <TD align="center" class="back">重量 1</TD>
+            <TD align="center" class="back">旅人向けの軟膏。LIFEを30回復します、戦闘中は使えません</TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back"><B>癒しの水</B></TD>
+            <TD align="center" class="back">重量 1</TD>
+            <TD align="center" class="back">治癒の理力が込められた水。LIFEを50回復します。<BR>
+            傷口にかけるだけでいいので戦闘中でも使えます</TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back"><B>理力の水</B></TD>
+            <TD align="center" class="back">重量 1</TD>
+            <TD align="center" class="back">FORCEを30回復させる水。<BR>
+            頭からかぶるだけでいいので戦闘中でも使えます。</TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back"><B>生命の結晶</B></TD>
+            <TD align="center" class="back">重量 0</TD>
+            <TD align="center" class="back">物語の始めにリクレールから15個だけもらえる結晶。<BR>
+            これが残っている限り、戦いで死んでも復活することができます。<BR>
+            残りがない状態で死ぬ（全滅する）と、ゲームオーバーです。</TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      <BR>
+      <BR>
+      <TABLE cellpadding="4">
+        <TBODY>
+          <TR>
+            <TD nowrap align="center" class="gray" colspan="3"><B>装備するアイテム</B></TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back"><B>ショートブレイド<BR>
+            ロングブレイド<BR>
+            グランドブレイド</B></TD>
+            <TD align="left" class="back">攻撃+10 重量 3<BR>
+            攻撃+20 重量 5<BR>
+            攻撃+45 重量 10</TD>
+            <TD align="center" class="back">それぞれサイズの違う剣です。名前の通り、<BR>
+            ショート　→　ロング　→　グランド　の順に、<BR>
+            巨大で重く、威力の高い剣となります。<BR>
+            特にグランドブレイドは重すぎて普通の人間ではとても扱えません。</TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back"><B>太陽の剣</B></TD>
+            <TD align="left" class="back">攻撃+？ 重量 5</TD>
+            <TD align="center" class="back">伝説の鍛冶屋、初代ガランが作ったとされる幻の剣です。<BR>
+            魔王には普通の攻撃が全く効かないとされているため、<BR>
+            魔王と戦うのならばきっとこの剣が必要になるでしょう。</TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back"><B>旅人のマント</B></TD>
+            <TD align="left" class="back">防御+5 重量 2</TD>
+            <TD align="center" class="back">主人公が最初に着ている身体防具です。<BR>
+            軽いですが、防御効果はほとんどありません。</TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back"><B>レザークロス<BR>
+            チェインクロス<BR>
+            ギガントプレート</B></TD>
+            <TD align="left" class="back">防御+8 重量 3<BR>
+            防御+14 重量 6<BR>
+            防御+25 重量 12</TD>
+            <TD align="center" class="back">それぞれ素材の違う身体防具です。<BR>
+            上から順に革の服、鎖の服、分厚い鉄板の鎧、となります。<BR>
+            ギガントプレートは凄まじく重いため、冒険を始めたばかりでは<BR>
+            きっと持つことすらかなわないでしょう。</TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back"><B>ガントレット<BR>
+            スケイルガード<BR>
+            ヘビィシールド</B></TD>
+            <TD align="left" class="back">回避率10% 重量 2<BR>
+            回避率20% 重量 4<BR>
+            回避率30% 重量 8</TD>
+            <TD align="center" class="back">攻撃を受け流すための盾としての防具です。上から、<BR>
+            小手、鱗状の金属を張った盾、分厚い鉄板の盾、となります。<BR>
+            装備すると物理攻撃への回避率が上がります。</TD>
+          </TR>
+
+        </TBODY>
+      </TABLE>
+      <BR>
+      ※このゲームでは、敵を攻撃するたびに剣が消耗していき、<BR>
+      あまりにも使いすぎるといつか折れてしまいます。<BR>
+      剣が完全に壊れてしまう前に、鍛冶屋に行って修理しましょう。<BR>
+      （ちなみに、防具は消耗しません）<BR>
+      <BR>
+      <BR>
+      <BR>
+      <B class=fmw>2.フォース・スキル</B><BR>
+      旅の役に立つフォースやスキルの一部を紹介します。<BR>
+      <BR>
+      <BR>
+      <TABLE cellpadding="4">
+        <TBODY>
+          <TR>
+            <TD nowrap align="center" class="gray" colspan="3"><B>回復系フォース</B></TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back"><B>治癒</B></TD>
+            <TD align="center" class="back">必要知力 3<BR>
+            集中 1<BR>
+            FORCE消費 4</TD>
+            <TD align="center" class="back">傷を治すフォースです。<BR>
+            意志Lv×5ポイントのLIFEを回復します。<BR>
+            戦闘不能の仲間に使えば<BR>
+            戦闘に復帰させることができます。</TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back"><B>完治</B></TD>
+            <TD align="center" class="back">必要知力 8<BR>
+            集中 2<BR>
+            FORCE消費 8</TD>
+            <TD align="center" class="back">どんな傷でも完全に治してしまうフォースです。<BR>
+            LIFEを完全回復しますが、集中に時間がかかります。<BR>
+            戦闘不能も回復します。</TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      <BR>
+      <BR>
+      <TABLE cellpadding="4">
+        <TBODY>
+          <TR>
+            <TD nowrap align="center" class="gray" colspan="3"><B>攻撃系フォース</B></TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back"><B>火炎</B></TD>
+            <TD align="center" class="back">必要知力 2<BR>
+            集中 1<BR>
+            FORCE消費 2</TD>
+            <TD align="center" class="back">敵一体に中威力のダメージを与えます。<BR>
+            意志Lvが高いほどダメージが上がります。</TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back"><B>雷光</B></TD>
+            <TD align="center" class="back">必要知力 5<BR>
+            集中 1<BR>
+            FORCE消費 6</TD>
+            <TD align="center" class="back">敵全体に火炎より弱い中威力のダメージを与えます。<BR>意志Lvが高いほどダメージが上がります。</TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back"><B>波動</B></TD>
+            <TD align="center" class="back">必要知力 4<BR>
+            集中不要<BR>
+            FORCE消費 5</TD>
+            <TD align="center" class="back">対魔王用に生み出されたフォース。<BR>
+            敵一体に残りFORCE分のダメージを与えます。<BR>
+            （たとえばFORCEが残り80のときに使うと80ダメージ）</TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      <BR>
+      <BR>
+      <TABLE cellpadding="4">
+        <TBODY>
+          <TR>
+            <TD nowrap align="center" class="gray" colspan="3"><B>補助系フォース</B></TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back"><B>催眠</B></TD>
+            <TD align="center" class="back">必要知力 5<BR>
+            集中 1<BR>
+            FORCE消費 3</TD>
+            <TD align="center" class="back">敵全体を一定確率で眠らせます。<BR>
+            眠った敵は5ターンは動けません（攻撃すると目覚めます）</TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back"><B>剛力</B></TD>
+            <TD align="center" class="back">必要知力 4<BR>
+            集中 1<BR>
+            FORCE消費 5</TD>
+            <TD align="center" class="back">筋力を増し、味方一人の攻撃力を1.5倍にします。</TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back"><B>守護</B></TD>
+            <TD align="center" class="back">必要知力 6<BR>
+            集中 1<BR>
+            FORCE消費 7</TD>
+            <TD align="center" class="back">空気の障壁で味方一人の<BR>
+            敵からの物理ダメージを1/2にします。</TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back"><B>幻霧</B></TD>
+            <TD align="center" class="back">必要知力 4<BR>
+            集中 1<BR>
+            FORCE消費 4</TD>
+            <TD align="center" class="back">物理攻撃への回避率を上昇させます。<BR>
+            意志Lvが高ければ高いほど回避率も高くなります。</TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back"><B>転移</B></TD>
+            <TD align="center" class="back">必要知力 7<BR>
+            集中不要<BR>
+            FORCE消費 7</TD>
+            <TD align="center" class="back">過去に触れたことのある転移石の場所へ瞬間移動します。<BR>
+            戦闘中に使うと、その戦闘から逃げることができます。<BR>
+            （水中では普通に逃げられないので、唯一の逃走手段です）</TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back"><B>封印</B></TD>
+            <TD align="center" class="back">必要知力 7<BR>
+            集中不要<BR>
+            FORCE消費 3</TD>
+            <TD align="center" class="back">敵一体に有効、かけるとそのターンのみ<BR>
+            フォースが発動できなくなり、フォース防御力が0になります。<BR>
+            相手が魔王だろうが何であろうが確実に効果があります。</TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back"><B>増幅</B></TD>
+            <TD align="center" class="back">必要知力 0<BR>
+            集中不要<BR>
+            FORCE消費 5</TD>
+            <TD align="center" class="back">次に発動するフォースの威力・効果を3倍にします。<BR>
+            味方一人に対して有効。</TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      <BR>
+      <BR>
+      <BR>
+      以下の技・スキルは基本的にFORCEを消費せず、<BR>
+      かつ集中も必要ありませんが、代わりにLIFEを消費するものがあります。<BR>
+      <BR>
+      <TABLE cellpadding="4">
+        <TBODY>
+          <TR>
+            <TD nowrap align="center" class="gray" colspan="3"><B>技・スキル</B></TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back"><B>強打</B></TD>
+            <TD align="center" class="back">LIFE12消費</TD>
+            <TD align="center" class="back">全身全霊を込めた一撃を放つ技です、<BR>
+            敵一体に攻撃力1.5倍の「攻撃」を行います。</TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back"><B>庇う</B></TD>
+            <TD align="center" class="back">LIFE消費なし</TD>
+            <TD align="center" class="back">仲間を庇い、全てのダメージを自分一人で受けます。<BR>
+            全体攻撃は倍のダメージを受けてしまいます。</TD>
+          </TR>
+          <TR>
+            <TD align="center" class="back"><B>受身</B></TD>
+            <TD align="center" class="back">受動能力</TD>
+            <TD align="center" class="back">自分が物理攻撃を受けたとき、自動的に<BR>
+            （生命Lv）％の確率でダメージを半分にします。<BR>
+            覚えているだけで効果が発動します。</TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      <BR>
+      
+      
+      <BR><BR>
+<a id="screenshot"></a><BR><BR>
+<HR width="100%" size="1" color="#8888aa">
+      <BR>
+      
+            － <B class=fmw><font size="+2">画面写真（スクリーンショット）</font></B> －<BR><BR>
+      <B class=fmw><BR>
+      </B>
+      <TABLE cellpadding="3" class="mgray" cellspacing="1">
+        <TBODY>
+          <TR>
+            <TD align="center" nowrap class="back"><IMG src="graphic/screen_title.jpg" border="0" width="320" height="240"><BR>
+            - タイトル画面 -</TD>
+            <TD align="center" nowrap class="back"><IMG src="graphic/screen_nameinput.jpg" border="0" width="320" height="240"><BR>
+            - 名前入力画面　あなたの好きな名前を付けよう -</TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      <BR>
+      <B class=fmw><BR>
+      </B>
+      <TABLE cellpadding="3" class="mgray" cellspacing="1">
+        <TBODY>
+          <TR>
+            <TD align="center" nowrap class="back"><IMG src="graphic/screen_totem.jpg" border="0" width="320" height="240"><BR>
+            - トーテム選択 -</TD>
+            <TD align="center" nowrap class="back"><IMG src="graphic/screen_battle.jpg" border="0" width="320" height="240"><BR>
+            - 戦闘 -</TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      <BR>
+      <BR>
+      <B class=fmw><BR>
+      </B>
+      <TABLE cellpadding="3" class="mgray" cellspacing="1">
+        <TBODY>
+          <TR>
+            <TD align="center" nowrap class="back"><IMG src="graphic/screen_dan.jpg" border="0" width="320" height="240"><BR>
+            - 暗い洞窟では視界が制限される -</TD>
+            <TD align="center" nowrap class="back"><IMG src="graphic/screen_water.jpg" border="0" width="320" height="240"><BR>
+            - 水底の遺跡 -</TD>
+          </TR>
+        </TBODY>
+      </TABLE>
+      <BR>
+      <BR>
+      <BR>
+      
+      
+      </TD>
+    </TR>
+  </TBODY>
+</TABLE>
+<BR>
+
+
+
+
+
+  
+<HR size="1" align="center" width="600">
+<CENTER><FONT class="fg">Copyright(C)　<B>SmokingWOLF</B>　All rights reserved</font></CENTER>
+<HR align="center" width="600" size="1">
+  
+  </BODY>
+
+</HTML>
